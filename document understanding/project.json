@@ -1,0 +1,78 @@
+{
+  "name": "document understanding",
+  "projectId": "7dc5d0fd-686c-4f37-a595-b1103e6652f8",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "ChatGPT.Activities": "[1.0.2]",
+    "UiPath.DocumentUnderstanding.ML.Activities": "[1.28.5]",
+    "UiPath.Excel.Activities": "[2.23.4]",
+    "UiPath.Form.Activities": "[24.10.2]",
+    "UiPath.FormActivityLibrary": "[2.0.7]",
+    "UiPath.IntelligentOCR.Activities": "[6.19.3]",
+    "UiPath.Mail.Activities": "[1.23.1]",
+    "UiPath.OmniPage.Activities": "[1.19.2]",
+    "UiPath.PDF.Activities": "[3.19.1]",
+    "UiPath.Persistence.Activities": "[1.5.5]",
+    "UiPath.System.Activities": "[24.10.3]",
+    "UiPath.Testing.Activities": "[24.10.0]",
+    "UiPath.UIAutomation.Activities": "[24.10.0]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.10.1.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "exceptionHandlerWorkflow": "GlobalHandler.xaml",
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": true,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "07ba1999-0870-4333-9a77-4d97b68b14f4",
+        "testCaseType": "TestCase",
+        "fileName": "throw rethrow.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "4180dae1-3ecd-4d76-9b01-0a8f4f865d7f",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
